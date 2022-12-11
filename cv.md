@@ -20,7 +20,7 @@ evgenyseglin@gmail.com
 
 ### Martial status
 
-# married, two children
+married, two children
 
 ## Education
 
