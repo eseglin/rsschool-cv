@@ -22,3 +22,17 @@
   .nav-link {
     transition: .3s;
   }
+  body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .footer{
+    list-style: none;
+    max-width: 1440px;
+    color: rgb(129, 124, 116);
+    background-color: bisque;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
