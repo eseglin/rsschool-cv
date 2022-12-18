@@ -1,4 +1,9 @@
+li {
+  list-style-type: none; /* Убираем маркеры */
+ }
   .container {
+    
+    font-size: 20px;
     max-width: 1440px;
     margin: 0 auto;
     color:blueviolet;
@@ -27,7 +32,8 @@
     flex-direction: column;
     justify-content: space-between;
   }
-  .name {font-size: 30px;
+  .name {
+    font-size: 30px;
     font-weight: 300;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -41,6 +47,7 @@
     color: #829985;
   }
   .section-item a {
+    font-size: 20px;
     color: #829985;
     text-decoration: none;  
     transition: color 0.5s;
@@ -68,8 +75,26 @@
   }
   .footertext{
         
-    color: rgb(129, 124, 116);
+    color: rgb(98, 0, 255);
    text-align: end;
        
+  }
+  .section-item {
+    
+    position: relative;
+    padding-left: 20px;
+  }
+  .footer{
+    overflow: visible;
+  }
+  .section-item::before {
+    content: "";
+    position: absolute;
+    top: 8px;
+    left: 0px;
+    width: 8px;
+    height: 8px; 
+    border: 1px solid #829985;
+    border-radius: 50%;
   }
   
