@@ -1,11 +1,18 @@
 li {
   list-style-type: none; /* Убираем маркеры */
  }
+ img {
+  margin-bottom: 10px;
+  border: 5px solid;
+  color: #829985;
+  border-radius: 50%;
+}
   .container {
-    
+    padding: 10px;
     font-size: 20px;
     max-width: 1440px;
     margin: 0 auto;
+   
     color:blueviolet;
     background-color: bisque;
   }
@@ -73,6 +80,7 @@ li {
   .link:hover {
     color: #0d7a1d;
   }
+
   .footertext{
         
     color: rgb(98, 0, 255);
