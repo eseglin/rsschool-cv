@@ -5,3 +5,16 @@ body{
     font-size: 1.6rem;
     font-family: 'Inika', Verdana;
 }
+
+:root {
+    --bg-color: #EDF2EC;
+    --button-text-color: #E06733;
+    --button-border-color:#E06733;
+    --button-active-color:#E06733;
+    --selection-main-color: #499A18;
+    --selection-second-color: #E06733;
+    --main-text-color:#000000;
+    --annotation-text-color:#636060;
+  }
+   
+  
