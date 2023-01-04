@@ -16,5 +16,27 @@ body{
     --main-text-color:#000000;
     --annotation-text-color:#636060;
   }
-   
+  .header{
+    background: var(--bg-color);
+    padding: 42px 111x 42px 109px;
+  }
+   .header__wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   }
+   .navigation{
+    display: flex;
+    
+    font-family: inika;
+    font-weight: 400;
+    font-style:normal;
+    font-size: 1.6rem;
+    line-height: 2.5rem;
+ }
+ .navigation__link{
+    list-style: none;
+    padding: 0 23px;
+    cursor: pointer;
+ }
   
