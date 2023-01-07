@@ -1,1 +1,1 @@
-# https://github.com/eseglin/rsschool-cv/plants/plants
+# Plants/index.html
