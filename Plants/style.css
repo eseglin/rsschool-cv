@@ -3,18 +3,21 @@ html{
 }
 body{
   width: 1440px;
+  max-width: 1440px;
+    margin: 0 auto;
     font-size: 2rem;
     font-family: 'Inika', Verdana;
 }
+
 h1{
   font-family: inter;
   font-weight: 700;
   font-size: 45px;
   line-height: 50px;
   color: var(--annotation-text-color);
+  
 }
 h2{
-  
   font-weight: 400;
   font-size: 40px;
   line-height: 52px;
@@ -180,6 +183,12 @@ span{
   .service__buttons{
     display: flex;
    justify-content:space-between;
+  }
+  .prices__text-call-us > h4 {
+    width: 60%;
+    text-align:right;
+    padding-left: 380px;
+
   }
   .service__buttons > .button_bordered{
   
