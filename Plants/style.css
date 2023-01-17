@@ -264,11 +264,30 @@ text-align: center;
   .footer__wrapper{
     display: flex;
     align-items: center;
-    justify-content:space-between;
+    justify-content:space-around;
   }
   .footer__data{
     display: flex;
-   
     align-items: center;
     justify-content:space-between;
+  }
+  
+  .social_links{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    cursor: pointer;
+    padding: 49px 0px;
+    margin: 0px;
+  }
+  .social_image{
+    padding: 0px 20px 0px 20px;
+  }
+  .copyrights{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    cursor: pointer;
+    padding:  0px;
+    margin: 0px;
   }
