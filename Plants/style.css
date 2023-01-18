@@ -44,6 +44,13 @@ h5{
   line-height: 50px;
   color: var(--selection-main-color);
 }
+h6{
+  font-family: inter;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 50px;
+  color: var(--main-text-color);
+}
 p{
   font-family: inter;
   font-weight: 400;
@@ -80,7 +87,7 @@ span{
   }
    .header__wrapper{
     display: flex;
-    padding: 42px 109px 42px 11px;
+    padding: 22px 89px 2px 11px;
     align-items: center;
     justify-content: space-between;
    }
@@ -207,7 +214,7 @@ span{
   }
   .services__item{
 display: flex;
-padding: 45px 109px 121px 109px;
+padding: 0px 79px 0.5px 79px;
 flex-wrap: wrap;
 justify-content: space-between;
 align-items: center;
@@ -264,29 +271,37 @@ text-align: center;
   .footer__wrapper{
     display: flex;
     align-items: center;
-    justify-content:space-around;
+    justify-content:space-between;
   }
   .footer__data{
     display: flex;
+    width: 33%;
     align-items: center;
     justify-content:space-between;
   }
   
   .social_links{
     display: flex;
-    justify-content: space-between;
+    justify-content: end;
     list-style: none;
     cursor: pointer;
     padding: 49px 0px;
     margin: 0px;
   }
   .social_image{
+    
     padding: 0px 20px 0px 20px;
+  }
+  .social_list {
+    width: 33%;
   }
   .copyrights{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
+    width: 33%;
+    align-items: center;
     list-style: none;
+    
     cursor: pointer;
     padding:  0px;
     margin: 0px;
